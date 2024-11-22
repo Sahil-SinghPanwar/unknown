@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Responsive Multipage Education Website Using HTML, CSS & Javascript
+    </title>
+
+    <!-- ICONSCOUT CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link rel="icon" type="./image/favicon" href="./images/favicon.png"> 
+    <!-- FONTFAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- swiper js -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+<style>
+  body{
+    /* background-image: url("./images/bg-texture.png"); */
+  }
+</style>
+  
+  </head>
+  <body>
+
+
+
+
+     <!-- ===========NAVBAR============= -->
+    <nav>
+      <div class="container nav_container">
+        <a href="index.html"><h4>SkillSphere</h4></a>
+        <ul class="nav__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+            </ul>
+        <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+        <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+      </div>
+    </nav>
+
+    <!-- ======END OF NAVBAR====== -->
+
+
+
+
+
+
+
+
+
+    <!-- ==========HEADER SECTION START========= -->
+    <header>
+      <div class="container header__container">
+        <div class="header__left">
+          <h1>Grow your skills to advance your carrer path</h1>
+          <p>
+            At SkillSphere , we are dedicated to providing high-quality education that empowers individuals to enhance their skills and achieve their career goals. Our diverse range of courses, from technology to arts, ensures that there is something for everyone. Join us to unlock your potential and take the first step towards a brighter future!
+          </p>
+          <a href="courses.html" class="btn btn-primary">Get Started</a>
+        </div>
+
+        <div class="header_right">
+          <div class="header__right-image">
+            <img src="./images/bg-3.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==========END OF HEADER============ -->
+
+
+
+
+
+
+
+
+
+    <!-- ==========CATEGORIES=========== -->
+
+    <section class="categories">
+      <div class="container categories__container">
+        <div class="categories__left">
+          <h1>Categories</h1>
+          <p>
+            Explore our diverse range of categories designed to cater to various interests and career paths. From cutting-edge technology courses that prepare you for the digital age to creative arts programs that inspire innovation, our offerings are crafted to help you thrive in today’s competitive landscape. No matter your passion, we have the right course to help you succeed!
+          </p>
+
+          <a href="#" class="btn">Learn More</a>
+        </div>
+
+        <div class="categories__right">
+
+
+          <article class="category">
+            <span class="category__icon"><i class="uil uil-bitcoin-circle"></i></span>
+            <h5>Blockchain</h5>
+            <p>Understand blockchain's role in security and transparency across industries.</p>
+          </article>
+
+          
+
+
+          <article class="category">
+            <span class="category__icon"><i class="uil uil-palette"></i></span>
+            <h5>Graphic Design</h5>
+            <p>Create engaging visuals using essential design principles and techniques.</p>
+          </article>
+
+
+
+          <article class="category">
+            <span class="category__icon"><i class="uil uil-usd-circle"></i></span>
+            <h5>Finance</h5>
+            <p>Learn personal finance and investment strategies for career advancement.</p>
+          </article>
+
+
+
+          <article class="category">
+            <span class="category__icon"><i class="uil uil-bitcoin-circle"></i></span>
+            <h5>Marketing</h5>
+            <p>Develop effective digital marketing campaigns to boost business success.</p>
+          </article>
+
+
+
+          <article class="category">
+            <span class="category__icon"><i class="uil uil-bitcoin-circle"></i></span>
+            <h5>DevOps</h5>
+            <p> Learn integration of development and operations for efficient software delivery.</p>
+          </article>
+
+
+
+          <article class="category">
+            <span class="category__icon"><i class="uil uil-puzzle-piece"></i></span>
+            <h5>Business</h5>
+            <p>Acquire essential management skills for success in business environments.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- ===========END OF CATEGORIES============ -->
+
+
+
+
+
+
+<!-- ===================courses====================== -->
+
+
+    <section class="courses">
+    <h2>Our Popular Courses</h2>
+        <div class="container courses__container">
+
+
+          <article class="course">
+            <div class="course__image">
+                <img src="./images/course-1.jpg" alt="">
+            </div>
+            <div class="course__info">
+            <h4>GitHub Copilot: AI For Coding & Development</h4>
+            <p>Learn to harness AI with GitHub Copilot, enhancing your coding efficiency and productivity effortlessly.</p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </div>
+          </article>
+
+          
+
+          <article class="course">
+            <div class="course__image">
+                <img src="./images/course-2.jpg" alt="">
+            </div>
+            <div class="course__info">
+            <h4>Data Analysis With Pandas And Python</h4>
+            <p>Master data manipulation and analysis using Python's Pandas library for effective data-driven decision-making.</p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </div>
+          </article>
+
+          
+
+          <article class="course">
+            <div class="course__image">
+                <img src="./images/course-3.jpg" alt="">
+            </div>
+            <div class="course__info">
+            <h4>Next.js 15 & React - The Complete Guide</h4>
+            <p>Build dynamic web applications using React and Next.js, focusing on performance and user experience.</p>
+            <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </div>  
+          </article>
+
+        </div>
+    </section>
+     <!-- ==============END OF COURSES================= -->
+
+
+
+
+
+
+
+
+
+
+    <section class="faqs">
+      <h2>Frequently Asked Questions</h2>
+        <div class="container faqs__container">
+
+            
+          <article class="faq">
+            <div class="faq_icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>How do I know the right courses for me?</h4>
+                <p>To determine the right courses for you, consider your career goals, interests, and the skills you wish to develop. Our course advisors can also provide personalized recommendations based on your background.</p>
+            </div>
+        </article>
+        
+        <article class="faq">
+            <div class="faq_icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>What is the duration of the courses?</h4>
+                <p>The duration of our courses varies; some are short workshops lasting a few hours, while others are comprehensive programs that may take several weeks or months to complete.</p>
+            </div>
+        </article>
+        
+        <article class="faq">
+            <div class="faq_icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>Are the courses accredited?</h4>
+                <p>Yes, many of our courses are accredited and recognized by industry professionals, ensuring that you gain valuable skills that are respected in the job market.</p>
+            </div>
+        </article>
+        
+        <article class="faq">
+            <div class="faq_icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>What is the cost of the courses?</h4>
+                <p>The cost of our courses varies depending on the program. We offer competitive pricing and occasionally provide discounts or scholarships for eligible students.</p>
+            </div>
+        </article>
+        
+        <article class="faq">
+            <div class="faq_icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>Can I get a refund if I am not satisfied?</h4>
+                <p>Yes, we have a refund policy in place. If you are not satisfied with the course within a specified period, you can request a refund according to our terms and conditions.</p>
+            </div>
+        </article>
+        
+        <article class="faq">
+            <div class="faq_icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>What support is available during the course?</h4>
+                <p>We provide comprehensive support, including access to instructors, online forums, and additional resources to help you succeed throughout the course.</p>
+            </div>
+        </article>
+        
+        <article class="faq">
+            <div class="faq_icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>Is there a certificate upon completion?</h4>
+                <p>Yes, upon successful completion of the course, you will receive a certificate that you can showcase on your resume or LinkedIn profile.</p>
+            </div>
+        </article>
+        
+        <article class="faq">
+            <div class="faq_icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>How do I access course materials?</h4>
+                <p>Course materials are accessible through our online learning platform, where you can find videos, readings, and assignments to complete at your own pace.</p>
+            </div>
+        </article>
+        
+        <article class="faq">
+            <div class="faq_icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>Can I take courses at my own pace?</h4>
+                <p>Absolutely! Most of our courses are designed to be self-paced, allowing you to learn according to your schedule and commitments.</p>
+            </div>
+        </article>
+        
+        <article class="faq">
+            <div class="faq_icon"><i class="uil uil-plus"></i></div>
+            <div class="question__answer">
+                <h4>What if I have more questions?</h4>
+                <p>If you have more questions, feel free to reach out to our support team via email or chat, and we will be happy to assist you.</p>
+            </div>
+        </article>
+
+        </div>
+    </section>
+<!-- =============END OF FAQS=============== -->
+
+
+
+
+
+
+
+
+
+<section class="container testimonials__container mySwiper">
+    <h2>Student's Testimonials</h2>
+    <div class="swiper-wrapper">
+
+        
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+            <img src="./images/t.jpg" alt="">
+        </div>
+        <div class="testimonial__info">
+            <h5>John Doe</h5> <!-- Updated Name -->
+            <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+            <p>SkillSphere has transformed my learning experience! The courses are well-structured.</p> <!-- Updated Paragraph -->
+        </div>
+    </article>
+    
+    <article class="testimonial swiper-slide">
+        <div class="avatar">
+            <img src="./images/t2.jpg" alt="">
+        </div>
+        <div class="testimonial__info">
+            <h5>Emma Smith</h5> <!-- Updated Name -->
+            <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+            <p>I’ve gained valuable skills that I can apply directly to my career. The community is fantastic and very encouraging!</p> <!-- Updated Paragraph -->
+        </div>
+    </article>
+    
+    <article class="testimonial swiper-slide">
+        <div class="avatar">
+            <img src="./images/t3.jpg" alt="">
+        </div>
+        <div class="testimonial__info">
+            <h5>Michael Johnson</h5> <!-- Updated Name -->
+            <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+            <p>The hands-on approach of the courses at SkillSphere has helped me understand complex topics much better.</p> <!-- Updated Paragraph -->
+        </div>
+    </article>
+    
+    <article class="testimonial swiper-slide">
+        <div class="avatar">
+            <img src="./images/t4.jpg" alt="">
+        </div>
+        <div class="testimonial__info">
+            <h5>Olivia Brown</h5> <!-- Updated Name -->
+            <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+            <p>Thanks to SkillSphere, I was able to switch careers successfully. The support from instructors was invaluable!</p> <!-- Updated Paragraph -->
+        </div>
+    </article>
+    
+    <article class="testimonial swiper-slide">
+        <div class="avatar">
+            <img src="./images/t5.jpg" alt="">
+        </div>
+        <div class="testimonial__info">
+            <h5>James Williams</h5> <!-- Updated Name -->
+            <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+            <p>SkillSphere's courses are not only informative but also engaging. I look forward to learning more!</p> <!-- Updated Paragraph -->
+        </div>
+    </article>
+
+    </div>
+     <!-- for the swiper slider dots -->
+    <div class="swiper-pagination"></div>
+</section>
+<!-- ==========END OF TESTIMONIALS============ -->
+
+
+
+
+
+
+
+<!-- ============== FOOTER =================== -->
+
+<footer class="footer">
+  <div class="container footer__container">
+
+    <div class="footer__1">
+      <a href="index.html" class="footer__logo"><h4>SkillSphere</h4></a>
+      <p>SkillSphere is your partner in achieving educational and career success.</p>
+    </div>
+
+
+    
+    <div class="footer__2">
+      <h4>Permalinks</h4>
+      <ul class="permalinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+
+
+    <div class="footer__3">
+      <h4>Privacy</h4>
+      <ul class="privacy">
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms and Condtions</a></li>
+        <li><a href="#">Refund Policy</a></li>
+      </ul>
+    </div>
+
+
+<div class="footer__4">
+  <h4>Contact Us</h4>
+  <div>
+    <p>+01 234 567 8910</p>
+    <p>gamestore0211@gmail.com</p>
+  </div>
+
+
+<ul class="footer__socials">
+
+  
+  <li>
+    <a href="https://facebook.com">
+      <i class="uil uil-facebook-f"></i>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://instagram.com">
+      <i class="uil uil-instagram-alt"></i>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://twitter.com">
+      <i class="uil uil-twitter"></i>
+    </a>
+  </li>
+
+  <li>
+    <a href="https://linkedin.com">
+      <i class="uil uil-linkedin-alt"></i>
+    </a>
+  </li>
+</ul>
+</div>
+
+  </div>
+  
+  <div class="footer__copyright">
+  <small>Copyright &copy; www.SkillSphere.com . All rights reserved !</small>
+</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
